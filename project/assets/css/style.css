@@ -24,6 +24,9 @@ a {
   text-decoration: underline;
 }
 
+input[minlength] {
+  border-style: dashed;
+
 /* Attribute targeting */
 input[required],
 select[required] {
