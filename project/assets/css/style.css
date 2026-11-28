@@ -154,6 +154,23 @@ button {
   border-radius: 4px;
 }
 
+  header, footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 1rem auto;
+}
+
 button:hover {
   background: #457b9d;
 }
