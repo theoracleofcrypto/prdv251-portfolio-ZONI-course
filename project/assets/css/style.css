@@ -24,6 +24,42 @@ a {
   text-decoration: underline;
 }
 
+/* Attribute targeting */
+input[required],
+select[required] {
+  border: 2px solid #1d3557;
+}
+
+/* Target by input type */
+input[type="email"] {
+  background: #f5fbff;
+}
+
+/* State selectors */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #0a66c2;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Scoped selectors (only inside this form) */
+.contact-form label {
+  display: block;
+  margin-top: 0.75rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 75%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+}
 a:hover,
 a:focus {
   text-decoration: none;
