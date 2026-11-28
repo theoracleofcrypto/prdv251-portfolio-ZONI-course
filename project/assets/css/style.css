@@ -13,6 +13,20 @@ header h1 {
   margin: 0 0 .25rem;
 }
 
+h1 {
+  font-size: 2rem;
+  color: #1d3557;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #457b9d;
+  margin-top: 1.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
 img {
   max-width: 200px;
   height: auto;
